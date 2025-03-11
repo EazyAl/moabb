@@ -363,10 +363,7 @@
 <nav class="bd-docs-nav bd-links"
      aria-label="Section Navigation">
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
-  <div class="bd-toc-item navbar-nav"><ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../cross_dataset_braindecode.html">Cross-Dataset Brain Decoding with Deep Learning</a></li>
-</ul>
-<ul class="current nav bd-sidenav">
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../tutorials/index.html">Getting Started!</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorial_0_plot_getting_started.html">Tutorial 0: Getting Started</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/tutorial_1_simple_example_motor_imagery.html">Tutorial 1: Simple Motor Imagery</a></li>
@@ -402,6 +399,7 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../advanced_examples/index.html">Advanced examples</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../advanced_examples/plot_cross_dataset_braindecode.html">Cross-Dataset Brain Decoding with Deep Learning</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../advanced_examples/plot_dreyer_clf_scores_vs_subj_info.html">Examples of analysis of a Dreyer2023 A dataset.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../advanced_examples/plot_filterbank_csp_vs_csp.html">FilterBank CSP versus CSP</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../advanced_examples/plot_grid_search_withinsession.html">GridSearch within a session</a></li>
@@ -566,14 +564,14 @@ be overwritten if necessary.</p>
 </div>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>BNCI2014-001-CrossSession:   0%|          | 0/2 [00:00&lt;?, ?it/s]
 BNCI2014-001-CrossSession:  50%|█████     | 1/2 [00:05&lt;00:05,  5.86s/it]
-BNCI2014-001-CrossSession: 100%|██████████| 2/2 [00:11&lt;00:00,  5.88s/it]
-BNCI2014-001-CrossSession: 100%|██████████| 2/2 [00:11&lt;00:00,  5.88s/it]
+BNCI2014-001-CrossSession: 100%|██████████| 2/2 [00:11&lt;00:00,  5.86s/it]
+BNCI2014-001-CrossSession: 100%|██████████| 2/2 [00:11&lt;00:00,  5.86s/it]
       score      time  samples  ... n_sessions       dataset  pipeline
-0  0.931713  0.251895    144.0  ...          2  BNCI2014-001   CSP+LDA
-1  0.955440  0.244781    144.0  ...          2  BNCI2014-001   CSP+LDA
-2  0.527199  0.229659    144.0  ...          2  BNCI2014-001   CSP+LDA
-3  0.646219  0.239275    144.0  ...          2  BNCI2014-001   CSP+LDA
-4  0.950424  0.197253    144.0  ...          2  BNCI2014-001     RG+LR
+0  0.931713  0.252292    144.0  ...          2  BNCI2014-001   CSP+LDA
+1  0.955440  0.253482    144.0  ...          2  BNCI2014-001   CSP+LDA
+2  0.527199  0.212615    144.0  ...          2  BNCI2014-001   CSP+LDA
+3  0.646219  0.238083    144.0  ...          2  BNCI2014-001   CSP+LDA
+4  0.950424  0.212094    144.0  ...          2  BNCI2014-001     RG+LR
 
 [5 rows x 9 columns]
 </pre></div>
@@ -615,8 +613,8 @@ points are in its quadrant.</p>
 <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_plot_cross_session_motor_imagery_001.png" srcset="../../_images/sphx_glr_plot_cross_session_motor_imagery_001.png" alt="plot cross session motor imagery" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 12.873 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  540 MB</p>
+<img src="../../_images/sphx_glr_plot_cross_session_motor_imagery_001.png" srcset="../../_images/sphx_glr_plot_cross_session_motor_imagery_001.png" alt="plot cross session motor imagery" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 12.790 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  549 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-paradigm-examples-plot-cross-session-motor-imagery-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/846c627146b8b580609ce7662075b0e9/plot_cross_session_motor_imagery.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_cross_session_motor_imagery.ipynb</span></code></a></p>
